@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Vodafone_Assessment">
+    <test name="Regression">
+        <classes>
+            <class name="Tests.RegisterPageTest"></class>
+            <class name="Tests.LoginTest"></class>
+            <class name="Tests.CategoriesItemsTest"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
